@@ -1,0 +1,27 @@
+
+# Model generated from D:\database_task\database_task_final\v2_csv_task\version4\csv_auto_task\models_log.txt
+class Resources(models.Model):
+    #Tenant[0] = models.CharField(max_length=50, null=True, blank=True)
+    Id[1] = models.CharField(max_length=50, null=True, blank=True)
+    FilterIDs[2] = models.CharField(max_length=50, null=True, blank=True)
+    ActivationInterval[3] = models.CharField(max_length=50, null=True, blank=True)
+    TTL[4] = models.CharField(max_length=50, null=True, blank=True)
+    Limit[5] = models.CharField(max_length=50, null=True, blank=True)
+    AllocationMessage[6] = models.CharField(max_length=50, null=True, blank=True)
+    Blocker[7] = models.CharField(max_length=50, null=True, blank=True)
+    Stored[8] = models.CharField(max_length=50, null=True, blank=True)
+    Weight[9] = models.CharField(max_length=50, null=True, blank=True)
+    ThresholdIDs[10] = models.CharField(max_length=50, null=True, blank=True)
+
+
+
+# Model generated from D:\database_task\database_task_final\v2_csv_task\version4\csv_auto_task\models_log.txt
+class Ratingprofiles(models.Model):
+    #Tenant = models.CharField(max_length=50, null=True, blank=True)
+    Category = models.CharField(max_length=50, null=True, blank=True)
+    Subject = models.CharField(max_length=50, null=True, blank=True)
+    ActivationTime = models.CharField(max_length=50, null=True, blank=True)
+    RatingPlanId = models.CharField(max_length=50, null=True, blank=True)
+    RatesFallbackSubject = models.CharField(max_length=50, null=True, blank=True)
+
+
