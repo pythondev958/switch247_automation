@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'csv_auto_task.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'switch247_automation',
         'USER': 'postgres',
         'PASSWORD': 'admin',
